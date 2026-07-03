@@ -1,0 +1,52 @@
+{
+  "name": "@scrimmage/storage-sqlite",
+  "version": "0.1.0",
+  "description": "SQLite storage backend for Scrimmage, powered by Drizzle ORM and better-sqlite3.",
+  "license": "MIT",
+  "author": "Rudhery Hotz",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "homepage": "https://github.com/Rudhery/scrimmage-sdk/tree/main/packages/storage-sqlite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rudhery/scrimmage-sdk.git",
+    "directory": "packages/storage-sqlite"
+  },
+  "bugs": {
+    "url": "https://github.com/Rudhery/scrimmage-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "migrations"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "test": "vitest run",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@scrimmage/core": "^0.1.0",
+    "better-sqlite3": "^11.8.1",
+    "drizzle-orm": "^0.38.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "drizzle-kit": "^0.30.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.5",
+    "vitest": "^3.0.5"
+  }
+}

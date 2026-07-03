@@ -1,0 +1,1 @@
+ALTER TABLE `teams` ADD `role_id` text;

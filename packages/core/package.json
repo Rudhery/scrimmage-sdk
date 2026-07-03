@@ -1,0 +1,46 @@
+{
+  "name": "@scrimmage/core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic domain model and services for scheduling friendly matches between teams.",
+  "license": "MIT",
+  "author": "Rudhery Hotz",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "homepage": "https://github.com/Rudhery/scrimmage-sdk/tree/main/packages/core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rudhery/scrimmage-sdk.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/Rudhery/scrimmage-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "rimraf": "^6.0.1",
+    "vitest": "^3.0.5"
+  }
+}

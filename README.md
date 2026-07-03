@@ -8,6 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-d3ff33.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-d3ff33.svg)](https://nodejs.org)
 [![Packages](https://img.shields.io/badge/packages-core%20%2B%20sqlite-1a1d24.svg)](#packages)
+[![Contributing](https://img.shields.io/badge/contributions-welcome-d3ff33.svg)](./CONTRIBUTING.md)
+[![Security](https://img.shields.io/badge/security-policy-1a1d24.svg)](./SECURITY.md)
 
 </div>
 
@@ -99,8 +101,17 @@ scrimmage-sdk/
 │   ├── core/                  # @scrimmage/core
 │   └── storage-sqlite/        # @scrimmage/storage-sqlite
 ├── brand/                     # SDK README artwork
-└── .github/                   # CI workflow
+├── .github/                   # CI, release, issue and PR automation
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+└── SECURITY.md
 ```
+
+## Community
+
+Issues and pull requests are welcome. Please read the
+[contribution guide](./CONTRIBUTING.md), follow the [code of conduct](./CODE_OF_CONDUCT.md), and
+report security issues through the [security policy](./SECURITY.md).
 
 ## Publishing
 

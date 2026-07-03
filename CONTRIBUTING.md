@@ -87,5 +87,5 @@ templates, CI, or repo metadata usually do not need a changeset.
 
 ## Reporting Bugs and Requesting Features
 
-Use the [issue templates](https://github.com/Rudhery/scrimmage-sdk/issues/new/choose). The more
+Use the [issue templates](https://github.com/getscrimmage/scrimmage-sdk/issues/new/choose). The more
 detail you give, the faster we can reproduce, evaluate, and fix the issue.

@@ -4,7 +4,7 @@
 
 ### Build scrimmage scheduling, standings, polls, RSVPs and brackets into your own app.
 
-[![CI](https://github.com/Rudhery/scrimmage-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/Rudhery/scrimmage-sdk/actions/workflows/ci.yml)
+[![CI](https://github.com/getscrimmage/scrimmage-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/getscrimmage/scrimmage-sdk/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-d3ff33.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-d3ff33.svg)](https://nodejs.org)
 [![Packages](https://img.shields.io/badge/packages-core%20%2B%20sqlite-1a1d24.svg)](#packages)
@@ -50,7 +50,7 @@ npm install @scrimmage/core @scrimmage/storage-sqlite
 Until npm publication, clone the repository and use it as a workspace dependency:
 
 ```bash
-git clone https://github.com/Rudhery/scrimmage-sdk.git
+git clone https://github.com/getscrimmage/scrimmage-sdk.git
 cd scrimmage-sdk
 npm install
 npm run build

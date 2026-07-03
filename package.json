@@ -6,13 +6,13 @@
   "type": "module",
   "license": "MIT",
   "author": "Rudhery Hotz",
-  "homepage": "https://github.com/Rudhery/scrimmage-sdk#readme",
+  "homepage": "https://github.com/getscrimmage/scrimmage-sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rudhery/scrimmage-sdk.git"
+    "url": "git+https://github.com/getscrimmage/scrimmage-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Rudhery/scrimmage-sdk/issues"
+    "url": "https://github.com/getscrimmage/scrimmage-sdk/issues"
   },
   "keywords": [
     "scrimmage",

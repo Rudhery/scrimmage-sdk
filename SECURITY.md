@@ -14,7 +14,7 @@ updates.
 Please do not report security vulnerabilities through public GitHub issues.
 
 Instead, use GitHub's
-[private vulnerability reporting](https://github.com/Rudhery/scrimmage-sdk/security/advisories/new)
+[private vulnerability reporting](https://github.com/getscrimmage/scrimmage-sdk/security/advisories/new)
 to disclose the issue privately to the maintainers.
 
 When reporting, please include as much of the following as you can:

@@ -1,0 +1,14 @@
+# Normalize line endings to LF for all text files in the repository.
+* text=auto eol=lf
+
+# Explicitly treat common binary assets as binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Keep lockfiles out of language stats / diffs noise.
+package-lock.json linguist-generated=true

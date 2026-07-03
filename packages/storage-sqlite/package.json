@@ -40,7 +40,7 @@
   "dependencies": {
     "@scrimmage/core": "^0.1.0",
     "better-sqlite3": "^11.8.1",
-    "drizzle-orm": "^0.38.3"
+    "drizzle-orm": "^0.45.2"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",

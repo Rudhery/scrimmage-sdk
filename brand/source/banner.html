@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      .banner {
+        position: relative;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.6vh;
+        overflow: hidden;
+        background: radial-gradient(130% 150% at 84% -20%, #1b1f27, #0a0b0d 66%);
+      }
+
+      .banner::before {
+        position: absolute;
+        inset: 0;
+        content: '';
+        background-image:
+          linear-gradient(to right, rgb(255 255 255 / 4.5%) 1px, transparent 1px),
+          linear-gradient(to bottom, rgb(255 255 255 / 4.5%) 1px, transparent 1px);
+        background-size: 6.4vh 6.4vh;
+        mask-image: radial-gradient(circle at 50% 14%, black, transparent 82%);
+      }
+
+      .banner::after {
+        position: absolute;
+        inset: 0;
+        content: '';
+        background: radial-gradient(42% 82% at 86% 0%, rgb(211 255 51 / 15%), transparent 70%);
+      }
+
+      .eyebrow {
+        position: relative;
+        z-index: 1;
+        padding-left: 1.4vh;
+        color: #d3ff33;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 3vh;
+        letter-spacing: 1.4vh;
+        text-transform: uppercase;
+      }
+
+      .wordmark {
+        position: relative;
+        z-index: 1;
+        color: #f3f4f6;
+        font-family: 'Anton', sans-serif;
+        font-size: 23vh;
+        letter-spacing: -0.4vh;
+        line-height: 0.9;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <span class="eyebrow" id="eyebrow">TYPESCRIPT SDK</span>
+      <span class="wordmark" id="wordmark">SCRIMMAGE SDK</span>
+    </div>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById('wordmark').textContent = params.get('title') ?? 'SCRIMMAGE SDK';
+      document.getElementById('eyebrow').textContent = params.get('eyebrow') ?? 'TYPESCRIPT SDK';
+    </script>
+  </body>
+</html>

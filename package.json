@@ -41,6 +41,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "brand:banner": "node scripts/render-banner.mjs brand/source/banner.html brand/scrimmage-banner-sdk.png",
     "db:generate": "npm run db:generate --workspace @scrimmage/storage-sqlite",
     "changeset": "changeset",
     "release": "npm run build && changeset publish"
@@ -52,6 +53,7 @@
     "@vitest/coverage-v8": "^3.0.5",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^9.1.0",
+    "playwright": "^1.61.1",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.21.0",

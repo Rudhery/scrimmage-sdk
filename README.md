@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="brand/scrimmage-banner.png" alt="Scrimmage SDK" width="860" />
+<img src="brand/scrimmage-banner-sdk.png" alt="Scrimmage SDK" width="860" />
 
 ### Build scrimmage scheduling, standings, polls, RSVPs and brackets into your own app.
 
